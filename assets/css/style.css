@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --blue-01: #f5f7ff;
+    --blue-02: #e0e8ff;
+    --blue-03: #3829e0;
+    --blue-04: #1f2f56;
+    --gray-01: #7280a7;
+
+    --font-primary: 'Red Hat';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-primary), Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+}
