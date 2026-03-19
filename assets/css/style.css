@@ -6,6 +6,7 @@
     --blue-03: #3829e0;
     --blue-04: #1f2f56;
     --gray-01: #7280a7;
+    --purple: #766CF1;
 
     --font-primary: 'Red Hat';
 }
@@ -129,6 +130,12 @@ body {
 .card-assinature a {
     color: var(--blue-03);
     font-weight: 900;
+    transition: all .2s ease-in-out;
+}
+
+.card-assinature a:hover {
+    color: var(--purple);
+    text-decoration: none;
 }
 
 .card-actions {
@@ -147,6 +154,7 @@ body {
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    transition: all .2s ease-in-out;
 }
 
 .payment-btn {
@@ -155,7 +163,15 @@ body {
     box-shadow: 0 20px 20px #3829e023;
 }
 
+.payment-btn:hover {
+    background-color: var(--purple);
+}
+
 .cancel-btn {
     color: var(--gray-01);
     background-color: transparent;
+}
+
+.cancel-btn:hover {
+    color: var(--blue-04);
 }
