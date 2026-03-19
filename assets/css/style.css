@@ -175,3 +175,19 @@ body {
 .cancel-btn:hover {
     color: var(--blue-04);
 }
+
+@media (max-width: 780px) {
+
+    .background-img {
+        background-image: url('../images/pattern-background-mobile.svg');
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .card-content {
+        padding: 20px;
+    }
+
+}
